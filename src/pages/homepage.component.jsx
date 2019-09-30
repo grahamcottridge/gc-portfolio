@@ -13,13 +13,11 @@ class HomePage extends React.Component {
       cards: [
         {
           id: 1,
-          title: "About me",
-          grid: "about"
+          title: "About me"
         },
         {
           id: 2,
-          title: "Projects",
-          grid: "project"
+          title: "Projects"
         }
       ]
     };

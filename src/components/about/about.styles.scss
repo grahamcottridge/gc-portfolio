@@ -1,19 +1,17 @@
 .about-container {
-  background: white;
-
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 20px;
-}
 
-.image {
-  background: lightgreen;
-}
+  .image {
+    // background: lightgreen;
+  }
 
-.image > img {
-  width: 100%;
-}
+  .image > img {
+    width: 100%;
+  }
 
-.text {
-  background: lightblue;
+  .text {
+    background: lightblue;
+  }
 }

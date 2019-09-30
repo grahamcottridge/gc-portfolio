@@ -1,19 +1,23 @@
 .project {
   background: lightblue;
-}
 
-.name {
-  background: lightsalmon;
-}
+  h4 {
+    margin: 0 12px 0 0;
+  }
 
-.image {
-  background: lightgreen;
-}
+  .name {
+    background: lightsalmon;
+  }
 
-.image > img {
-  width: 100%;
-}
+  .image {
+    background: lightgreen;
+  }
 
-.text {
-  background: lightyellow;
+  .image > img {
+    width: 100%;
+  }
+
+  .text {
+    background: lightyellow;
+  }
 }

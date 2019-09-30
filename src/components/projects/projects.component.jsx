@@ -2,6 +2,8 @@ import React from "react";
 
 import ProjectItem from "../project-item/project-item.component";
 
+import imageone from "../../assets/music-event.png";
+
 import "./projects.styles.scss";
 
 class Projects extends React.Component {
@@ -13,14 +15,14 @@ class Projects extends React.Component {
         {
           id: 1,
           title: "Project 1",
-          image: "/assets/Music Event.png",
+          image: imageone,
           text:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         },
         {
           id: 2,
           title: "Project 2",
-          image: "/assets/Music Event.png",
+          image: imageone,
           text:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         }

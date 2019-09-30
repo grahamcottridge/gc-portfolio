@@ -1,13 +1,15 @@
 import React from "react";
 
+import image from "../../assets/graham.jpg";
+
 import "./about.styles.scss";
 
 const About = () => (
-  <div class="about-container">
-    <div class="image">
-      <img src="assets/graham.jpg" alt="profile" />
+  <div className="about-container">
+    <div className="image">
+      <img src={image} alt="profile" />
     </div>
-    <div class="text">
+    <div className="text">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

@@ -5,7 +5,7 @@ import "./card.styles.scss";
 import About from "../about/about.component";
 import Projects from "../projects/projects.component";
 
-const Card = ({ title }) => {
+const Card = ({ title, content }) => {
   const cardItem = title;
   return (
     <div className="card">
