@@ -1,0 +1,19 @@
+.project {
+  background: lightblue;
+}
+
+.name {
+  background: lightsalmon;
+}
+
+.image {
+  background: lightgreen;
+}
+
+.image > img {
+  width: 100%;
+}
+
+.text {
+  background: lightyellow;
+}
