@@ -4,15 +4,15 @@ import "./navbar.styles.scss";
 
 const Navbar = () => (
   <div className="navbar">
-    <a className="logo-container" href="#">
+    <a className="name-container" href="#">
       Graham Cottridge
     </a>
     <div className="options">
-      <a className="option" href="#">
-        about
+      <a className="option" href="#about">
+        ABOUT
       </a>
-      <a className="option" href="#">
-        projects
+      <a className="option" href="#projects">
+        PROJECTS
       </a>
     </div>
   </div>

@@ -13,10 +13,10 @@ const HomePage = () => {
     <div className="homepage">
       <Navbar />
       <Header />
-      <Card title="About me">
+      <Card title="About me" id="about">
         <About />
       </Card>
-      <Card title="Projects">
+      <Card title="Projects" id="projects">
         <Projects />
       </Card>
     </div>
