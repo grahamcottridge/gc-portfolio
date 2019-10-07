@@ -2,20 +2,19 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 20px;
-}
 
-.image {
-  background: lightgreen;
-  border: 1px solid #000;
-}
+  .image {
+    background: lightgreen;
+    // border: 1px solid #000;
+  }
 
-.image > img {
-  width: 100%;
-}
+  .image > img {
+    width: 100%;
+  }
 
-.text > p {
-  vertical-align: top;
-  background: lightblue;
-  border: 1px solid #000;
-  vertical-align: text-top;
+  .text > p {
+    vertical-align: top;
+    background: lightblue;
+    vertical-align: text-top;
+  }
 }
