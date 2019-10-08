@@ -11,7 +11,6 @@ import "./homepage.styles.scss";
 const HomePage = () => {
   return (
     <div className="homepage">
-      <Navbar />
       <Header />
       <Card title="About me" id="about">
         <About />

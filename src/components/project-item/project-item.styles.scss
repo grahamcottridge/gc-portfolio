@@ -1,11 +1,15 @@
 .project {
-  // border: 1px solid #000;
-
-  .image {
-  }
+  border: 1px solid #ececec;
+  border-radius: 3px;
+  // background: #ececec;
 
   .image > img {
     width: 100%;
+    padding: 0px;
+  }
+
+  .content {
+    padding: 0px 20px 20px;
   }
 
   .title > h3 {
@@ -15,9 +19,16 @@
   }
   .tech-used {
     font-style: italic;
+    font-size: 16px;
   }
 
   .text > p {
-    font-size: 18px;
+  }
+
+  .buttons {
+    border: none;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
   }
 }
