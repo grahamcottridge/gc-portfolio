@@ -10,13 +10,17 @@ import "./homepage.styles.scss";
 const HomePage = () => (
   <div>
     <div className="homepage">
+      <img src="" alt="" />
       <Menu />
-      <Card title="About me" id="about">
+      <Card goto="about" title="About me">
         <About />
       </Card>
-      <Card title="Projects" id="projects">
+      <Card goto="projects" title="Projects">
         <Projects />
       </Card>
+    </div>
+    <div>
+      <h1>Contact</h1>
     </div>
   </div>
 );
