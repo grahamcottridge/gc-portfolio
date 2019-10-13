@@ -17,18 +17,31 @@
     font-size: 24px;
     margin: 0;
   }
-  .tech-used {
+  .sub {
     font-style: italic;
     font-size: 16px;
   }
 
-  .text > p {
+  .text {
   }
 
   .buttons {
     border: none;
     display: flex;
     justify-content: flex-start;
-    align-content: center;
+
+    .link {
+      color: #333;
+      text-decoration: none;
+      min-width: 100px;
+      height: 40px;
+      letter-spacing: 0.5px;
+      line-height: 15px;
+      padding: 12px 10px 0 10px;
+    }
+    .link:hover {
+      color: white;
+      // background: red;
+    }
   }
 }

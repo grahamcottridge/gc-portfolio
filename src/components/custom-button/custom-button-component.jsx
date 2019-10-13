@@ -3,7 +3,7 @@ import React from "react";
 import "./custom-button.styles.scss";
 
 const CustomButton = props => {
-  return <button className="custom-button">{props.children}</button>;
+  return <div className="custom-button">{props.children}</div>;
 };
 
 export default CustomButton;
