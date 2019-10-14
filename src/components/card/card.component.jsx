@@ -4,7 +4,7 @@ import "./card.styles.scss";
 
 const Card = props => {
   return (
-    <div className="card">
+    <div className="card-new">
       <div className="title" id={props.id}>
         <h2 id={props.goto}>{props.title}</h2>
         {props.children}

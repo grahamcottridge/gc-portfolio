@@ -1,11 +1,11 @@
 .project {
   border: 1px solid #ececec;
   border-radius: 3px;
-  // background: #ececec;
+  background: white;
 
   .image > img {
     width: 100%;
-    padding: 0px;
+    max-height: 80%;
   }
 
   .content {
