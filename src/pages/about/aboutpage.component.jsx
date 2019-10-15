@@ -7,7 +7,7 @@ import Fade from "react-reveal/Fade";
 
 const AboutPage = () => (
   <div>
-    <Fade center>
+    <Fade clear>
       <Card goto="about" title="About me">
         <About />
       </Card>

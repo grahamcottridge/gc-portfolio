@@ -6,9 +6,8 @@ import "./about.styles.scss";
 
 const About = () => (
   <div className="about-container">
-    <div className="image">
-      <img src={image} alt="profile" />
-    </div>
+    <h1>About Me</h1>
+
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -22,3 +21,7 @@ const About = () => (
 );
 
 export default About;
+
+// <div className="image">
+// <img src={image} alt="profile" />
+// </div>
