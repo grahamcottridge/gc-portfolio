@@ -1,0 +1,43 @@
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #ececec;
+}
+
+.main-nav {
+  display: flex;
+  //   flex-direction: column;
+  justify-content: flex-end;
+  list-style: none;
+  background: none;
+  //   background: #ececec;
+  //   font-size: 0.7em;
+  margin: 0;
+
+  @media only screen and (max-width: 600px) {
+    .main-nav {
+      font-size: 0.5em;
+      padding: 0;
+    }
+  }
+
+  li {
+    padding: 20px;
+  }
+
+  .brand {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: auto;
+  }
+
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #f300b4;
+    text-decoration: none;
+  }
+}

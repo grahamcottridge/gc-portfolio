@@ -7,10 +7,11 @@ import AboutPage from "./pages/about/aboutpage.component";
 import ProjectsPage from "./pages/projects/projectspage.component";
 
 import Menu from "./components/menu/menu.component";
+import Nav from "./components/nav/nav.component";
 
 const App = () => (
   <div>
-    <Menu />
+    <Nav />
     <Switch>
       <Route exact path="/" component={HomePage} />
       <Route path="/aboutme" component={AboutPage} />
