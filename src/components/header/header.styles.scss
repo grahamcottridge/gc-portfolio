@@ -1,3 +1,18 @@
+.icons {
+  display: flex;
+
+  .icon {
+    justify-content: space-around;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: #555;
+  }
+
+  .icon:hover {
+    color: #f300b4;
+  }
+}
+
 .header {
   display: flex;
   flex-direction: column;

@@ -3,23 +3,20 @@ import React from "react";
 import "./nav.styles.scss";
 
 const Nav = () => (
-  <nav class="sticky">
-    <ul class="main-nav">
-      <li>
-        <a className="brand" href="">
-          Graham Cottridge
-        </a>
-      </li>
-      <li>
-        <a href="">About me</a>
-      </li>
-      <li>
-        <a href="">Projects</a>
-      </li>
-      <li class="link-right">
-        <a href="">Contacts</a>
-      </li>
-    </ul>
+  <nav class="fixednav">
+    <div class="leftnav">
+      <a href="#">Graham Cottridge</a>
+    </div>
+    <div class="rightnav">
+      <a href="#" class="rightnav">
+        About me
+      </a>
+    </div>
+    <div class="rightnav">
+      <a href="#" class="rightnav">
+        Projects
+      </a>
+    </div>
   </nav>
 );
 

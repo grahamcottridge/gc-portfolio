@@ -4,14 +4,13 @@ import "./card.styles.scss";
 
 const Card = props => {
   return (
-    <div>
-      <div className="card-new">{props.children}</div>
+    <div className="card">
+      <div className="title" id={props.id}>
+        <h2 id={props.goto}>{props.title}</h2>
+      </div>
+      {props.children}
     </div>
   );
 };
 
 export default Card;
-
-// <div className="title" id={props.id}>
-//       <h2 id={props.goto}>{props.title}</h2>
-//

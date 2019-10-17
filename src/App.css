@@ -4,6 +4,7 @@ body {
   font-size: 18px;
   line-height: 1.5;
   color: #555;
+  background: #ececec;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -21,4 +22,12 @@ h6,
 strong {
   font-family: "Oswald", sans-serif;
   color: #333;
+}
+
+.background {
+  background: #ececec;
+}
+
+div {
+  border: 1px dotted red;
 }
