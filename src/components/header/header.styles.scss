@@ -22,22 +22,18 @@
   // background: url("../../assets/wave.svg") bottom no-repeat;
   // background-size:
   height: 100%;
-  // overflow: hidden;
-  // min-width: 100%;
-  // position: relative;
 
   .title > h1 {
     color: #555;
     font-style: italic;
     font-size: 60px;
     line-height: 0.5;
-    // padding: 40px;
+
     margin: 40px;
     opacity: 1;
   }
 
   .contact {
-    // color: #333;
     color: #f300b4;
     background: white;
     text-decoration: none;
@@ -51,9 +47,4 @@
     background: #f300b4;
     color: white;
   }
-}
-.pic {
-  // position: absolute;
-  // width: 100%;
-  // bottom: 0px;
 }
