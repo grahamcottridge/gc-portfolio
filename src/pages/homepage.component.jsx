@@ -11,10 +11,10 @@ import "./homepage.styles.scss";
 const HomePage = () => (
   <div className="homepage">
     <Header />
-    <Card goto="about" title="About me">
+    <Card section="about" title="About me">
       <About />
     </Card>
-    <Card goto="projects" title="Projects">
+    <Card section="projects" title="Projects">
       <Projects />
     </Card>
   </div>

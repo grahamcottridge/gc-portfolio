@@ -6,7 +6,7 @@ const Card = props => {
   return (
     <div className="card">
       <div className="title" id={props.id}>
-        <h2 id={props.goto}>{props.title}</h2>
+        <h2 id={props.section}>{props.title}</h2>
       </div>
       {props.children}
     </div>

@@ -1,9 +1,21 @@
+body {
+  margin: 0 auto;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #555;
+  background: #ececec;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
+a,
 strong {
   font-family: "Oswald", sans-serif;
   color: #333;
@@ -16,7 +28,7 @@ p {
 .background {
   background: #ececec;
 }
-
+/* 
 div {
   border: 1px dotted red;
-}
+} */

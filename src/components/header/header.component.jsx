@@ -4,6 +4,7 @@ import wave from "../../assets/wave.svg";
 import "./header.styles.scss";
 
 import Zoom from "react-reveal/Zoom";
+import { Parallax, ParallaxBanner } from "react-scroll-parallax";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";

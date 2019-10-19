@@ -2,22 +2,43 @@ import React from "react";
 
 import "./nav.styles.scss";
 
-const Nav = () => (
-  <nav class="fixednav">
-    <div class="leftnav">
-      <a href="#">Graham Cottridge</a>
-    </div>
-    <div class="rightnav">
-      <a href="#" class="rightnav">
-        About me
-      </a>
-    </div>
-    <div class="rightnav">
-      <a href="#" class="rightnav">
-        Projects
-      </a>
-    </div>
-  </nav>
-);
+import { Link, animateScroll as scroll } from "react-scroll";
+
+const Nav = () => {
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  };
+  return (
+    <nav className="fixednav">
+      <div className="leftnav">
+        <a onClick={scrollToTop}>Graham Cottridge</a>
+      </div>
+      <div className="rightnav">
+        <Link
+          activeClass="active"
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={-30}
+          duration={1000}
+        >
+          About me
+        </Link>
+      </div>
+      <div className="rightnav">
+        <Link
+          activeClass="active"
+          to="projects"
+          spy={true}
+          smooth={true}
+          offset={-30}
+          duration={1000}
+        >
+          Projects
+        </Link>
+      </div>
+    </nav>
+  );
+};
 
 export default Nav;
