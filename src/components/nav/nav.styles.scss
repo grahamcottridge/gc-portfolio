@@ -25,14 +25,9 @@
     text-decoration: none;
   }
 
-  a:hover {
+  a:hover,
+  a.active {
     text-decoration: none;
     color: #f300b4;
   }
 }
-
-// .sticky {
-//   position: fixed;
-//   top: 0;
-//   width: 100%;
-// }
