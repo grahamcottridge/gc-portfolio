@@ -2,15 +2,15 @@ import React from "react";
 
 import "./card.styles.scss";
 
-const Card = props => {
-  return (
-    <div className="card">
-      <div className="title" id={props.id}>
-        <h2 id={props.section}>{props.title}</h2>
-      </div>
+import Fade from "react-reveal/Fade";
+import VisibilitySensor from "react-visibility-sensor";
+
+const Card = props => (
+  <Fade top>
+    <div className="card" id={props.section}>
       {props.children}
     </div>
-  );
-};
+  </Fade>
+);
 
 export default Card;

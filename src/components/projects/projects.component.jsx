@@ -8,17 +8,20 @@ import "./projects.styles.scss";
 const Projects = () => {
   return (
     <div className="projects-container">
-      {PROJECT_DATA.map(({ id, title, image, sub, text, live, source }) => (
-        <ProjectItem
-          key={id}
-          title={title}
-          image={image}
-          sub={sub}
-          text={text}
-          live={live}
-          source={source}
-        />
-      ))}
+      <h2 className="title">Projects</h2>
+      <div className="projects">
+        {PROJECT_DATA.map(({ id, title, image, sub, text, live, source }) => (
+          <ProjectItem
+            key={id}
+            title={title}
+            image={image}
+            sub={sub}
+            text={text}
+            live={live}
+            source={source}
+          />
+        ))}
+      </div>
     </div>
   );
 };

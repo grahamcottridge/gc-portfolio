@@ -8,10 +8,10 @@ const PROJECT_DATA = [
   {
     id: 1,
     title: "Clothing Store",
-    sub: "Built with React",
+    sub: "Built with React & Redux",
     image: imageOne,
     text:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "An e-commerce website featuring navigation and routing, sign in and registration including Google signup, cart and checkout integrating Stripe payment API and utilising Firebase for authentication and storage.",
     live: "https://react-clothes-shop.herokuapp.com/",
     source: "https://github.com/grahamcottridge/react-clothing-store"
   },
@@ -31,7 +31,7 @@ const PROJECT_DATA = [
     sub: "Built with React",
     image: imageFour,
     text:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "An event launch website utilising several react animation libraries and featuring a countdown to the event and side drawer navigation.",
     live: "http://striped-love.surge.sh/",
     source: "https://github.com/grahamcottridge/react-music-event"
   },

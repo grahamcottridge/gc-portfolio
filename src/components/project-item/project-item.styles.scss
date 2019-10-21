@@ -1,46 +1,42 @@
-.project {
+.project-container {
   border: 1px solid #ececec;
   border-radius: 3px;
-  background: white;
+  background: #ececec;
+  margin: 0px 0px 20px;
 
   .image > img {
     width: 100%;
     max-height: 80%;
   }
+}
 
-  .content {
-    padding: 0px 20px 20px;
-  }
+.content {
+  padding: 5px 20px 20px;
 
   .title > h3 {
     color: #f300b4;
-    font-size: 24px;
+    font-size: 20px;
+    margin: 5px 0px 10px;
   }
-
-  .sub {
+  .sub > p {
     font-style: italic;
     font-size: 16px;
+    margin: 5px 0px 10px;
   }
-
-  .text {
+  .text > p {
+    font-size: 16px;
+    margin: 5px 0px 0px;
   }
+}
 
-  .buttons {
-    border: none;
-    display: flex;
-    justify-content: flex-start;
-
-    .link {
-      color: #333;
-      text-decoration: none;
-      min-width: 100px;
-      height: 40px;
-      letter-spacing: 0.5px;
-      line-height: 15px;
-      padding: 12px 10px 0 10px;
-    }
-    .link:hover {
-      color: white;
-    }
+.buttons {
+  margin: 0px 20px;
+  .link {
+    color: #333;
+    text-decoration: none;
+    padding: 8px 30px 8px 30px;
+  }
+  .link:hover {
+    color: white;
   }
 }

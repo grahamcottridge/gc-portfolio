@@ -1,18 +1,22 @@
 .about-container {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 6fr;
   // grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 20px;
 
-  // .image {
-  //   // border: 1px solid #000;
-  // }
-
-  .image > img {
-    width: 100%;
+  .title {
+    margin-top: 0px;
   }
 
-  .text > p {
-    vertical-align: text-top;
+  .about-me {
+    margin-top: 0px;
   }
 }
+
+// .image {
+//   // border: 1px solid #000;
+// }
+
+// .image > img {
+//   width: 100%;
+// }

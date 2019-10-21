@@ -1,5 +1,20 @@
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: 1fr 6fr;
   grid-gap: 20px;
+
+  .title {
+    margin-top: 0px;
+  }
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  // display: grid;
+  // grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  // grid-template-columns: 1fr 1fr;
+  // grid-gap: 20px;
 }

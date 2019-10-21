@@ -4,16 +4,20 @@ import image from "../../assets/graham.jpg";
 
 import "./about.styles.scss";
 
-const About = () => (
+const About = props => (
   <div className="about-container">
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
+    <h2 className="title">About me</h2>
+    <p className="about-me">
+      I’m a graduate of Le Wagon coding bootcamp - a start-up focused, 9-week
+      intensive coding boot camp learning learning Ruby on Rails, HTML, CSS,
+      Bootstrap, JavaScript ES2015, SQL, GitHub and Heroku. where I learned the
+      foundations of programming and web development. <br></br>Since then , I
+      continued to broaden my skills, focussing particularly on Javascript up to
+      ES9 and and building full stack application with the React framework
+      including Redux. I strive to relevant skills in all areas Something about
+      background and wanting to move into tech. I’m a continuous learner, love
+      to solve problems and keep on top of current industry trends. <br></br>I
+      am currently based in London, UK.
     </p>
   </div>
 );
