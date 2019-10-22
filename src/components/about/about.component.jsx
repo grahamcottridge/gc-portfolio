@@ -8,16 +8,16 @@ const About = props => (
   <div className="about-container">
     <h2 className="title">About me</h2>
     <p className="about-me">
-      I’m a graduate of Le Wagon coding bootcamp - a start-up focused, 9-week
-      intensive coding boot camp learning learning Ruby on Rails, HTML, CSS,
-      Bootstrap, JavaScript ES2015, SQL, GitHub and Heroku. where I learned the
-      foundations of programming and web development. <br></br>Since then , I
-      continued to broaden my skills, focussing particularly on Javascript up to
-      ES9 and and building full stack application with the React framework
-      including Redux. I strive to relevant skills in all areas Something about
-      background and wanting to move into tech. I’m a continuous learner, love
-      to solve problems and keep on top of current industry trends. <br></br>I
-      am currently based in London, UK.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Convallis a cras
+      semper auctor. Velit aliquet sagittis id consectetur purus ut faucibus.
+      Orci ac auctor augue mauris augue. Sed sed risus pretium quam vulputate.
+      Massa tempor nec feugiat nisl pretium fusce id velit. Lorem ipsum dolor
+      sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+      labore et dolore magna aliqua. Convallis a cras semper auctor. Velit
+      aliquet sagittis id consectetur purus ut faucibus. Orci ac auctor augue
+      mauris augue. Sed sed risus pretium quam vulputate. Massa tempor nec
+      feugiat nisl pretium fusce id velit.
     </p>
   </div>
 );

@@ -8,7 +8,6 @@ const Nav = () => {
   const scrollToTop = () => {
     scroll.scrollToTop();
   };
-
   return (
     <nav className="fixednav">
       <div className="leftnav">
@@ -24,7 +23,6 @@ const Nav = () => {
       >
         About me
       </Link>
-
       <Link
         activeClass="active"
         to="projects"

@@ -8,20 +8,19 @@ const PROJECT_DATA = [
   {
     id: 1,
     title: "Clothing Store",
-    sub: "Built with React & Redux",
+    sub: "Built with React, Redux and Firebase",
     image: imageOne,
     text:
-      "An e-commerce website featuring navigation and routing, sign in and registration including Google signup, cart and checkout integrating Stripe payment API and utilising Firebase for authentication and storage.",
+      "An e-commerce website featuring navigation and routing, sign in and registration including Google signup, utilisation of Firebase for authentication and storage as well as a cart and checkout integrating Stripe payment API. Deployed to Heroku.",
     live: "https://react-clothes-shop.herokuapp.com/",
     source: "https://github.com/grahamcottridge/react-clothing-store"
   },
   {
     id: 2,
     title: "Face Recognition",
-    sub: "Built with React",
+    sub: "Built with React, Express.js and Node.js, Postgres",
     image: imageTwo,
-    text:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    text: "Deployed to Heroku.",
     live: "https://photo-face-reveal.herokuapp.com/",
     source: "https://github.com/grahamcottridge/react-face-recognition"
   },
@@ -31,8 +30,8 @@ const PROJECT_DATA = [
     sub: "Built with React",
     image: imageFour,
     text:
-      "An event launch website utilising several react animation libraries and featuring a countdown to the event and side drawer navigation.",
-    live: "http://striped-love.surge.sh/",
+      "An event launch website utilising several React animation libraries and featuring a countdown and side drawer navigation. Deployed to [ ].",
+    live: "https://curly-cabbage.surge.sh",
     source: "https://github.com/grahamcottridge/react-music-event"
   },
   {
@@ -41,7 +40,7 @@ const PROJECT_DATA = [
     sub: "Built with React",
     image: imageThree,
     text:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "An event organiser enabling guests to be inputed and divided into invited and confirmed.  Deployed to GitHub pages.",
     live: "",
     source: "https://github.com/grahamcottridge/react-rsvp"
   }

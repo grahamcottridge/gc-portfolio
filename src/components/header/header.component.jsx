@@ -25,17 +25,25 @@ const Header = () => (
       <a className="icon" href="mailto:codinggc@gmail.com?subject=Hi!">
         <FontAwesomeIcon size="2x" icon={faEnvelope} />
       </a>
-      <a className="icon" href="https://github.com/grahamcottridge">
+      <a
+        className="icon"
+        href="https://github.com/grahamcottridge"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
         <FontAwesomeIcon size="2x" icon={faGithub} />
       </a>
-      <a className="icon" href="https://www.linkedin.com/in/mvc1234">
+      <a
+        className="icon"
+        href="https://www.linkedin.com/in/mvc1234"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
         <FontAwesomeIcon size="2x" icon={faLinkedin} />
       </a>
     </div>
     <Zoom>
-      <div className="pic">
-        <img src={wave} alt="wave" />
-      </div>
+      <img src={wave} alt="wave" />
     </Zoom>
   </div>
 );

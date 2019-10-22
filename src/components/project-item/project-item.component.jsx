@@ -20,7 +20,6 @@ const ProjectItem = ({ title, image, sub, text, live, source }) => {
           <p>{text}</p>
         </div>
       </div>
-
       <div className="buttons">
         <CustomButton>
           <a

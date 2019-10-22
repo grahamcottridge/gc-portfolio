@@ -2,6 +2,7 @@ import React from "react";
 
 import Card from "../components/card/card.component";
 import About from "../components/about/about.component";
+import Skills from "../components/skills/skills.component";
 import Projects from "../components/projects/projects.component";
 
 import Header from "../components/header/header.component";
@@ -21,3 +22,7 @@ const HomePage = () => (
 );
 
 export default HomePage;
+
+// <Card section="skills" title="Skills">
+//     //   <Skills />
+//     // </Card>

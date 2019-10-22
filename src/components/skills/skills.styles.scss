@@ -1,0 +1,19 @@
+.skills-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 2fr;
+  // grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+
+  .title {
+    margin-top: 0px;
+  }
+
+  .skills {
+    margin-top: 0px;
+    padding: 0px;
+  }
+  .list {
+    // margin-left: 0px;
+    padding-left: 17px;
+  }
+}
