@@ -1,21 +1,9 @@
 import React from "react";
 
 import "./skills.styles.scss";
+import SKILLS_LIST from "./skills.data";
 
-const skillsList = [
-  {
-    category: "Front End",
-    items: ["Ruby", "JS", "CSS"]
-  },
-  {
-    category: "Back End",
-    items: ["Ruby", "JS", "CSS"]
-  },
-  {
-    category: "Other",
-    items: ["Ruby", "JS", "CSS"]
-  }
-];
+const skillsList = SKILLS_LIST;
 
 const Skills = () => (
   <React.Fragment>
@@ -25,8 +13,8 @@ const Skills = () => (
         <div key={i}>
           <h3 className="title">{category}</h3>
           {items.map((item, j) => (
-            <ul key={j}>
-              <li className="list">{item}</li>
+            <ul key={j} className="list">
+              <li className="item">{item}</li>
             </ul>
           ))}
         </div>
