@@ -15,6 +15,9 @@ const HomePage = () => (
     <Card section="about" title="About me">
       <About />
     </Card>
+    <Card section="skills" title="Skills">
+      <Skills />
+    </Card>
     <Card section="projects" title="Projects">
       <Projects />
     </Card>
@@ -22,7 +25,3 @@ const HomePage = () => (
 );
 
 export default HomePage;
-
-// <Card section="skills" title="Skills">
-//     //   <Skills />
-//     // </Card>

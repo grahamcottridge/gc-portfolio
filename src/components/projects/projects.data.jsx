@@ -20,7 +20,8 @@ const PROJECT_DATA = [
     title: "Face Recognition",
     sub: "Built with React, Express.js and Node.js, Postgres",
     image: imageTwo,
-    text: "Deployed to Heroku.",
+    text:
+      "This application utilises an API to detect faces in pictures. It features a RESTful API server, session management with authenticated routes, stores user information and hashes passwords securely on a database with Postgres. Deployed to Heroku.",
     live: "https://photo-face-reveal.herokuapp.com/",
     source: "https://github.com/grahamcottridge/react-face-recognition"
   },
@@ -30,8 +31,8 @@ const PROJECT_DATA = [
     sub: "Built with React",
     image: imageFour,
     text:
-      "An event launch website utilising several React animation libraries and featuring a countdown and side drawer navigation. Deployed to [ ].",
-    live: "https://curly-cabbage.surge.sh",
+      "An static website utilising several React animation libraries and featuring a countdown and side drawer navigation. Deployed using Surge.",
+    live: "https://dusty-knowledge.surge.sh",
     source: "https://github.com/grahamcottridge/react-music-event"
   },
   {

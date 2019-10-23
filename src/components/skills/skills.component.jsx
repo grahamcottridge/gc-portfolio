@@ -2,7 +2,7 @@ import React from "react";
 
 import "./skills.styles.scss";
 
-const skills = [
+const skillsList = [
   {
     category: "Front End",
     items: ["Ruby", "JS", "CSS"]
@@ -18,48 +18,21 @@ const skills = [
 ];
 
 const Skills = () => (
-  <div className="skills-container">
-    <h2 className="title">Skills</h2>
-    <React.Fragment>
-      <ul>
-        {skills.items.map((item, i) => (
-          <li>`{item[i]}`</li>
-        ))}
-      </ul>
-    </React.Fragment>
-  </div>
+  <React.Fragment>
+    <div className="skills-container">
+      <h2 className="title">Skills</h2>
+      {skillsList.map(({ category, items }, i) => (
+        <div key={i}>
+          <h3 className="title">{category}</h3>
+          {items.map((item, j) => (
+            <ul key={j}>
+              <li className="list">{item}</li>
+            </ul>
+          ))}
+        </div>
+      ))}
+    </div>
+  </React.Fragment>
 );
 
-// {skills.map(skill => (
-//   <h3>{skill.category}</h3>
-// ))}
-
-// <ul className="list">
-//   <li>{skills.item[0]}</li>
-//   <li>Skill 2</li>
-//   <li>Skill 3</li>
-// </ul>;
-
-// {
-//   skills.map((skill, index) => (
-//     <div key={index}>
-//       <h3>{skill.category}</h3>
-//       {skills.items.map((el, i) => (
-//         <ul key={i}>
-//           <li>{el}</li>
-//         </ul>
-//       ))}
-//     </div>
-//   ));
-// }
-
 export default Skills;
-
-// <div>
-//     <h3 className="skills">Back End</h3>
-//     <ul className="list">
-//       <li>Skill 1</li>
-//       <li>Skill 2</li>
-//       <li>Skill 3</li>
-//     </ul>
-//   </div>
