@@ -32,7 +32,7 @@ const PROJECT_DATA = [
     image: imageFour,
     text:
       "An static website utilising several React animation libraries and featuring a countdown and side drawer navigation. Deployed using Surge.",
-    live: "https://dusty-knowledge.surge.sh",
+    live: "https://grahamcottridge.github.io/react-music-event",
     source: "https://github.com/grahamcottridge/react-music-event"
   },
   {
@@ -42,7 +42,7 @@ const PROJECT_DATA = [
     image: imageThree,
     text:
       "An event organiser enabling guests to be inputed and divided into invited and confirmed.  Deployed to GitHub pages.",
-    live: "",
+    live: "https://grahamcottridge.github.io/react-rsvp",
     source: "https://github.com/grahamcottridge/react-rsvp"
   }
 ];

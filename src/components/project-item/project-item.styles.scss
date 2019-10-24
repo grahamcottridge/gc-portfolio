@@ -32,11 +32,12 @@
 .buttons {
   margin: 0px 20px;
   .link {
-    color: #333;
+    color: white;
     text-decoration: none;
-    padding: 8px 30px 8px 30px;
+    padding: 8px 20px 8px 20px;
   }
   .link:hover {
     color: white;
+    color: #333;
   }
 }

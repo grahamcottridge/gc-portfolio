@@ -5,11 +5,9 @@ import "./card.styles.scss";
 import Fade from "react-reveal/Fade";
 
 const Card = props => (
-  <Fade>
-    <div className="card" id={props.section}>
-      {props.children}
-    </div>
-  </Fade>
+  <div className="card" id={props.section}>
+    {props.children}
+  </div>
 );
 
 export default Card;
