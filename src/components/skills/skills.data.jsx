@@ -5,7 +5,7 @@ const SKILLS_LIST = [
       "React & Redux",
       "HTML5",
       "CSS & Sass",
-      "Responsive Design (Flexbox/Grid)",
+      "Responsive design (Flexbox/Grid)",
       "Bootstrap"
     ]
   },
@@ -27,7 +27,7 @@ const SKILLS_LIST = [
       "Git and GitHub flow",
       "Heroku deployment",
       "Development tools - npm, Yarn, Babel, Webpack",
-      "Product deisgn",
+      "Product design",
       "Sketch/Adobe CS"
     ]
   }

@@ -11,10 +11,10 @@ const Skills = () => (
       <h2 className="title">Skills</h2>
       {skillsList.map(({ category, items }, i) => (
         <div key={i}>
-          <h3 className="title">{category}</h3>
+          <h3 className="category">{category}</h3>
           {items.map((item, j) => (
             <ul key={j} className="list">
-              <li className="item">{item}</li>
+              <li className="item ">{item}</li>
             </ul>
           ))}
         </div>

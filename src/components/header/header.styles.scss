@@ -26,11 +26,16 @@
   .title > h1 {
     color: #555;
     font-style: italic;
-    font-size: 60px;
+    font-size: 52px;
     line-height: 0.5;
-
     margin: 40px;
-    opacity: 1;
+  }
+
+  @media (max-width: 600px) {
+    .title > h1 {
+      font-size: 32px;
+      margin: 20px;
+    }
   }
 
   .contact {
@@ -41,7 +46,7 @@
     letter-spacing: 0.5px;
     line-height: 15px;
     padding: 20px 40px;
-    font-size: 24px;
+    font-size: 48px;
   }
   .contact:hover {
     background: #f300b4;

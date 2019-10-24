@@ -21,3 +21,10 @@
     border-bottom: 1px solid #f300b4;
   }
 }
+
+@media (max-width: 600px) {
+  .card {
+    padding: 20px;
+    margin: 20px 40px 40px;
+  }
+}

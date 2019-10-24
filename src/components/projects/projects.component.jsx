@@ -1,7 +1,9 @@
 import React from "react";
 
 import ProjectItem from "../project-item/project-item.component";
+
 import PROJECT_DATA from "./projects.data";
+import "./projects.styles.scss";
 
 const projectData = PROJECT_DATA;
 
