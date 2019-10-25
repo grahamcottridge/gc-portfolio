@@ -25,6 +25,16 @@ const Nav = () => {
       </Link>
       <Link
         activeClass="active"
+        to="skills"
+        spy={true}
+        smooth={true}
+        offset={-100}
+        duration={1000}
+      >
+        Skills
+      </Link>
+      <Link
+        activeClass="active"
         to="projects"
         spy={true}
         smooth={true}

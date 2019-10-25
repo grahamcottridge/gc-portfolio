@@ -21,7 +21,7 @@ const PROJECT_DATA = [
     sub: "Built with React, Express.js and Node.js, Postgres",
     image: imageTwo,
     text:
-      "This application utilises an API to detect faces in pictures. It features a RESTful API server, session management with authenticated routes, stores user information and hashes passwords securely on a database with Postgres. Deployed to Heroku.",
+      "This application utilises an API to detect faces in pictures. It features a RESTful API server, session management with authenticated routes, stores user information and hashes passwords securely on a database with Postgres. Deployed to Heroku. Why not register and try it for yourself?",
     live: "https://photo-face-reveal.herokuapp.com/",
     source: "https://github.com/grahamcottridge/react-face-recognition"
   },
@@ -31,7 +31,7 @@ const PROJECT_DATA = [
     sub: "Built with React",
     image: imageFour,
     text:
-      "An static website utilising several React animation libraries and featuring a countdown and side drawer navigation. Deployed using Surge.",
+      "An static website utilising several React animation libraries and featuring a countdown, integration with Google maps and side drawer navigation. Deployed to GitHub pages.",
     live: "https://grahamcottridge.github.io/react-music-event",
     source: "https://github.com/grahamcottridge/react-music-event"
   },

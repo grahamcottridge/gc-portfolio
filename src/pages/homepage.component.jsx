@@ -12,6 +12,7 @@ import "./homepage.styles.scss";
 const HomePage = () => (
   <div className="homepage">
     <Header />
+    <div className="blank"></div>
     <Card section="about" title="About me">
       <About />
     </Card>

@@ -3,6 +3,7 @@ const SKILLS_LIST = [
     category: "Front End",
     items: [
       "React & Redux",
+      "JavaScript ES9",
       "HTML5",
       "CSS & Sass",
       "Responsive design (Flexbox/Grid)",
@@ -12,10 +13,9 @@ const SKILLS_LIST = [
   {
     category: "Back End",
     items: [
-      "JavaScript ES9",
-      "Ruby",
       "Node.js",
       "Express.js",
+      "Ruby on Rails",
       "Postgres",
       "Firebase",
       "AWS"

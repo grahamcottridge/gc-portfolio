@@ -18,7 +18,13 @@ const Header = () => (
       overflow: "hidden"
     }}
   >
-    <div className="title">
+    <div className="div3 bounce-in-top">
+      <div className="div2 bounce-in-right">
+        <div className="div1 bounce-in-left"></div>
+      </div>
+    </div>
+
+    <div className="title tracking-in-expand">
       <h1>Full Stack React Developer</h1>
     </div>
     <div className="icons">
@@ -42,10 +48,11 @@ const Header = () => (
         <FontAwesomeIcon size="2x" icon={faLinkedin} />
       </a>
     </div>
-    <Zoom>
-      <img src={wave} alt="wave" />
-    </Zoom>
   </div>
 );
 
 export default Header;
+
+// <Zoom>
+// <img src={wave} alt="wave" />
+// </Zoom>
