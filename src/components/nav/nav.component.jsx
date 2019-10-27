@@ -8,6 +8,7 @@ const Nav = () => {
   const scrollToTop = () => {
     scroll.scrollToTop();
   };
+
   return (
     <nav className="fixednav">
       <div className="leftnav">
