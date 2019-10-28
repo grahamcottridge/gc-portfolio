@@ -11,23 +11,22 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const Header = () => (
   <div
+    id="nav"
     className="header"
     style={{
-      height: `${window.innerHeight}px`,
-      overflow: "hidden"
+      height: `${window.innerHeight}px`
     }}
   >
     <div className="main">
       <Fade top>
         <header id="pageHeader"></header>
       </Fade>
-      <Fade delay={4000}>
+      <Fade left delay={2000}>
         <article id="mainArticle">
           <Zoom delay={5000}>
             <h1>
               Full Stack <br></br> React Developer
             </h1>
-
             <div className="icons">
               <a className="icon" href="mailto:codinggc@gmail.com?subject=Hi!">
                 <FontAwesomeIcon size="2x" icon={faEnvelope} />
@@ -55,10 +54,10 @@ const Header = () => (
       <Fade left delay={1000}>
         <nav id="mainNav"></nav>
       </Fade>
-      <Fade right delay={2000}>
+      <Fade left delay={3000}>
         <div id="siteAds"></div>
       </Fade>
-      <Fade bottom delay={3000}>
+      <Fade bottom delay={4000}>
         <footer id="pageFooter"></footer>
       </Fade>
     </div>

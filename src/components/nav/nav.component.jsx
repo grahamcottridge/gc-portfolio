@@ -12,7 +12,17 @@ const Nav = () => {
   return (
     <nav className="fixednav">
       <div className="leftnav">
-        <a onClick={scrollToTop}>Graham Cottridge</a>
+        <Link
+          activeClass="active"
+          to="nav"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={1000}
+          onClick={scrollToTop}
+        >
+          Graham Cottridge
+        </Link>
       </div>
       <Link
         activeClass="active"

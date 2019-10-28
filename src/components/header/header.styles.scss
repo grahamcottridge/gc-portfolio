@@ -21,7 +21,6 @@
     grid-template-rows: 60px 1fr 60px;
     grid-template-columns: 20% 1fr 15%;
     grid-gap: 10px;
-    height: 80%;
     width: 80%;
     margin: 0;
     opacity: 0.8;
@@ -32,19 +31,36 @@
     nav,
     div {
       text-align: center;
-      padding: 20px;
-      background: #b0b5b3;
-      // background: #f300b4;
       border-radius: 3px;
     }
 
     article > h1 {
-      padding-top: 80px;
-      // color: white;
+      padding-top: 70px;
       color: #333;
       font-style: italic;
       font-size: 68px;
       line-height: 1.2;
+    }
+
+    #pageHeader {
+      grid-area: header;
+      background: #f300b4;
+    }
+    #pageFooter {
+      grid-area: footer;
+      background: #2c363f;
+    }
+    #mainArticle {
+      grid-area: article;
+      background: #d6d1cd;
+    }
+    #mainNav {
+      grid-area: nav;
+      background: #969a97;
+    }
+    #siteAds {
+      grid-area: ads;
+      background: #c60f7b;
     }
 
     @media (max-width: 600px) {
@@ -63,28 +79,11 @@
         padding: 20px 20px;
         text-decoration: none;
         color: #333;
-        // color: white;
       }
 
       .icon:hover {
         color: #f300b4;
       }
-    }
-
-    #pageHeader {
-      grid-area: header;
-    }
-    #pageFooter {
-      grid-area: footer;
-    }
-    #mainArticle {
-      grid-area: article;
-    }
-    #mainNav {
-      grid-area: nav;
-    }
-    #siteAds {
-      grid-area: ads;
     }
   }
 }

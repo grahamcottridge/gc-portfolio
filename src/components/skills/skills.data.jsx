@@ -4,10 +4,10 @@ const SKILLS_LIST = [
     items: [
       "React & Redux",
       "JavaScript ES9",
-      "HTML5",
       "CSS & Sass",
       "Responsive design (Flexbox/Grid)",
-      "Bootstrap"
+      "Bootstrap",
+      "HTML5"
     ]
   },
   {

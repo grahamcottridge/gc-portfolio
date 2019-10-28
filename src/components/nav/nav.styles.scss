@@ -2,19 +2,18 @@
   display: flex;
   flex-direction: row;
   align-items: center; /* aligns links vertically */
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   z-index: 9999;
   width: 100%;
   height: 60px;
-  // background: #ececec;
-  background: #30332e;
+  background: #ececec;
   text-decoration: none;
 
   .leftnav {
     flex-grow: 1; /* this is the important bit */
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
   }
 
@@ -22,8 +21,7 @@
 
   a {
     padding: 1em;
-    color: white;
-    // color: #333;
+    color: #333;
     text-decoration: none;
     cursor: pointer;
   }
@@ -37,10 +35,6 @@
   @media (max-width: 600px) {
     .leftnav {
       font-size: 20px;
-    }
-
-    a {
-      font-size: 16px;
     }
   }
 }

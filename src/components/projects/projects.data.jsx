@@ -31,7 +31,7 @@ const PROJECT_DATA = [
     sub: "Built with React",
     image: imageFour,
     text:
-      "An static website utilising several React animation libraries and featuring a countdown, integration with Google maps and side drawer navigation. Deployed to GitHub pages.",
+      "A static website utilising several React animation libraries and featuring a countdown, integration with Google maps and side drawer navigation. Deployed to GitHub pages.",
     live: "https://grahamcottridge.github.io/react-music-event",
     source: "https://github.com/grahamcottridge/react-music-event"
   },
