@@ -15,10 +15,10 @@ const SKILLS_LIST = [
     items: [
       "Node.js",
       "Express.js",
-      "Ruby on Rails",
       "Postgres",
       "Firebase",
-      "AWS"
+      "AWS",
+      "Ruby on Rails"
     ]
   },
   {

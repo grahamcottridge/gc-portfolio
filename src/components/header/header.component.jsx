@@ -13,9 +13,10 @@ const Header = () => (
   <div
     id="nav"
     className="header"
-    style={{
-      height: `${window.innerHeight}px`
-    }}
+    // style={{
+    //   height: `${window.innerHeight}px`,
+    //   overflow: "hidden"
+    // }}
   >
     <div className="main">
       <Fade top>
