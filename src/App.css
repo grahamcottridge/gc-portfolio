@@ -22,7 +22,9 @@ strong {
   color: 444;
   color: #444;
 }
-
+h2 {
+  color: #f300b4;
+}
 p {
   text-align: justify;
 }
