@@ -25,7 +25,7 @@ const Header = () => (
       <Fade left delay={2000}>
         <article id="mainArticle">
           <Zoom delay={5000}>
-            <h1>
+            <h1 className="title">
               Full Stack <br></br> React Developer
             </h1>
             <div className="icons">
