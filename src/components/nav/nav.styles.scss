@@ -13,12 +13,10 @@
   text-decoration: none;
 
   .leftnav {
-    flex-grow: 1; /* this is the important bit */
+    flex-grow: 1;
     font-size: 24px;
     font-weight: bold;
   }
-
-  /* the rest is just for looks */
 
   a {
     padding: 1em;

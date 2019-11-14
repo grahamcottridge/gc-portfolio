@@ -16,7 +16,8 @@ const About = props => (
       </p>
       <p>
         As a continuous learner, now focused on building full stack applications
-        with React & Redux and advancing knowledge in the JavaScript ecosystem.
+        in the React & Redux ecosystem, advancing knowledge of JavaScript and
+        establishing a career in tech.
       </p>
     </div>
   </div>
