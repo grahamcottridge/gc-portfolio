@@ -26,7 +26,7 @@ const Header = () => (
         <article id="mainArticle">
           <Zoom delay={5000}>
             <h1 className="title">
-              Full Stack <br></br> Developer
+              Full Stack <br></br> React Developer
             </h1>
             <div className="icons">
               <a className="icon" href="mailto:codinggc@gmail.com?subject=Hi!">

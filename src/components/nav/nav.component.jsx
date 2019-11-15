@@ -2,7 +2,9 @@ import React from "react";
 
 import "./nav.styles.scss";
 
-import { Link, animateScroll as scroll } from "react-scroll";
+import Scroll from "../scroll/scroll.component";
+
+import { animateScroll as scroll } from "react-scroll";
 
 const Nav = () => {
   const scrollToTop = () => {
@@ -12,48 +14,15 @@ const Nav = () => {
   return (
     <nav className="fixednav">
       <div className="leftnav">
-        <Link
-          activeClass="active"
+        <Scroll
           to="nav"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={1000}
+          title="Graham Cottridge"
           onClick={scrollToTop}
-        >
-          Graham Cottridge
-        </Link>
+        ></Scroll>
       </div>
-      <Link
-        activeClass="active"
-        to="about"
-        spy={true}
-        smooth={true}
-        offset={-100}
-        duration={1000}
-      >
-        About me
-      </Link>
-      <Link
-        activeClass="active"
-        to="skills"
-        spy={true}
-        smooth={true}
-        offset={-100}
-        duration={1000}
-      >
-        Skills
-      </Link>
-      <Link
-        activeClass="active"
-        to="projects"
-        spy={true}
-        smooth={true}
-        offset={-100}
-        duration={1000}
-      >
-        Projects
-      </Link>
+      <Scroll to="about" title="About me"></Scroll>
+      <Scroll to="skills" title="Skills"></Scroll>
+      <Scroll to="projects" title="Projects"></Scroll>
     </nav>
   );
 };
