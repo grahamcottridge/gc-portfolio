@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/gc-portfolio/static/css/main.7d853498.chunk.css",
+    "main.js": "/gc-portfolio/static/js/main.ae4575fc.chunk.js",
+    "main.js.map": "/gc-portfolio/static/js/main.ae4575fc.chunk.js.map",
+    "runtime-main.js": "/gc-portfolio/static/js/runtime-main.5bd48d8e.js",
+    "runtime-main.js.map": "/gc-portfolio/static/js/runtime-main.5bd48d8e.js.map",
+    "static/js/2.c1cfe13a.chunk.js": "/gc-portfolio/static/js/2.c1cfe13a.chunk.js",
+    "static/js/2.c1cfe13a.chunk.js.map": "/gc-portfolio/static/js/2.c1cfe13a.chunk.js.map",
+    "index.html": "/gc-portfolio/index.html",
+    "precache-manifest.b8edc0293564bb4a2a5cbbf66a3e74a7.js": "/gc-portfolio/precache-manifest.b8edc0293564bb4a2a5cbbf66a3e74a7.js",
+    "service-worker.js": "/gc-portfolio/service-worker.js",
+    "static/css/main.7d853498.chunk.css.map": "/gc-portfolio/static/css/main.7d853498.chunk.css.map",
+    "static/media/clothing-store.jpg": "/gc-portfolio/static/media/clothing-store.62505372.jpg",
+    "static/media/face-detection.jpg": "/gc-portfolio/static/media/face-detection.86a1a81a.jpg",
+    "static/media/header.styles.scss": "/gc-portfolio/static/media/image3.f5c40f69.jpg",
+    "static/media/music-event.jpg": "/gc-portfolio/static/media/music-event.e5e71e68.jpg",
+    "static/media/rsvp.jpg": "/gc-portfolio/static/media/rsvp.bb8e2d8a.jpg"
+  }
+}
