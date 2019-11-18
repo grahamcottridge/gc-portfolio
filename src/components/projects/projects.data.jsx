@@ -12,7 +12,7 @@ const PROJECT_DATA = [
     image: imageOne,
     text:
       "An e-commerce website featuring navigation and routing, sign in and registration including Google signup, utilisation of Firebase for authentication and storage as well as a cart and checkout integrating Stripe payment API. Deployed to Heroku.",
-    live: "https://react-clothes-shop.herokuapp.com/",
+    live: "https://react-clothing-shop.herokuapp.com/",
     source: "https://github.com/grahamcottridge/react-clothing-store"
   },
   {
