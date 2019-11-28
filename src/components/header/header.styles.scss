@@ -1,93 +1,38 @@
 .header {
-  background-image: linear-gradient(
-      rgba(243, 0, 178, 0.317),
-      rgba(243, 0, 178, 0.105)
-    ),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("../../assets/image3.jpg");
   background-size: cover;
   background-position: center;
-  justify-content: center;
-  align-items: flex-start;
-  display: flex;
   height: 100vh;
-  padding-top: 40px;
-  position: relative;
+
+  display: flex;
+  justify-content: center;
+  // align-items: center;
 
   .main {
-    position: absolute;
-    width: 80%;
-    display: grid;
-    grid-template-areas:
-      "header header header"
-      "nav article ads"
-      "footer footer footer";
-    grid-template-rows: 60px 1fr 60px;
-    grid-template-columns: 20% 1fr 15%;
-    grid-gap: 10px;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
 
-    header,
-    footer,
-    article,
-    nav,
-    div {
-      text-align: center;
-      border-radius: 3px;
-    }
-
-    article > h1 {
+    .title {
+      color: #ececec;
       font-style: italic;
       font-size: 56px;
       line-height: 1.2;
     }
 
-    #pageHeader {
-      grid-area: header;
-      background: #2c363f80;
-
-      opacity: 0.5;
-    }
-    #pageFooter {
-      grid-area: footer;
-      background: #f300b480;
-    }
-    #mainArticle {
-      grid-area: article;
-      background: #d6d1cd80;
-    }
-    #mainNav {
-      grid-area: nav;
-      background: #969a9780;
-    }
-    #siteAds {
-      grid-area: ads;
-      background: #c60f7b80;
-    }
-
-    @media (max-width: 600px) {
-      article > h1 {
-        font-size: 32px;
-        margin: 20px;
-      }
-    }
-
     .icons {
-      display: flex;
-      justify-content: center;
-
       .icon {
-        justify-content: space-between;
+        color: #ececec;
         padding: 20px 20px;
         text-decoration: none;
       }
 
       .icon:hover {
-        color: #f300b4;
+        color: #444;
       }
     }
-  }
-  .text {
-    position: absolute;
-    z-index: 100;
-    left: 0;
   }
 }

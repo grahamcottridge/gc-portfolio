@@ -13,7 +13,7 @@ const PROJECT_DATA = [
     text:
       "An e-commerce website featuring navigation and routing, sign in and registration including Google signup, utilisation of Firebase for authentication and storage as well as a cart and checkout integrating Stripe payment API. Deployed to Heroku.",
     live: "https://react-clothing-shop.herokuapp.com/",
-    source: "https://github.com/grahamcottridge/react-clothing-store"
+    source: "https://github.com/grahamcottridge/react-clothing-store-saga"
   },
   {
     id: 2,
@@ -44,29 +44,27 @@ const PROJECT_DATA = [
       "An event organiser enabling guests to be inputed and divided into invited and confirmed.  Deployed to GitHub pages.",
     live: "https://grahamcottridge.github.io/react-rsvp",
     source: "https://github.com/grahamcottridge/react-rsvp"
-  },
-  ,
-  {
-    id: 5,
-    title: "Contact Manager",
-    sub: "Built with React",
-    image: "https://picsum.photos/200",
-    text:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisis magna etiam tempor orci eu lobortis.",
-    live: "",
-    source: ""
-  },
-  ,
-  {
-    id: 6,
-    title: "TBC",
-    sub: "Built with React",
-    image: "https://picsum.photos/200",
-    text:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisis magna etiam tempor orci eu lobortis.",
-    live: "",
-    source: ""
   }
+  // {
+  //   id: 5,
+  //   title: "Contact Manager",
+  //   sub: "Built with React",
+  //   image: "https://picsum.photos/200",
+  //   text:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisis magna etiam tempor orci eu lobortis.",
+  //   live: "",
+  //   source: ""
+  // },
+  // {
+  //   id: 6,
+  //   title: "TBC",
+  //   sub: "Built with React",
+  //   image: "https://picsum.photos/200",
+  //   text:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisis magna etiam tempor orci eu lobortis.",
+  //   live: "",
+  //   source: ""
+  // }
 ];
 
 export default PROJECT_DATA;

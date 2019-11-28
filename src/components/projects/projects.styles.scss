@@ -14,12 +14,9 @@
   grid-gap: 20px;
 }
 
-@media (max-width: 600px) {
-  .projects-container {
+@media (max-width: 800px) {
+  .projects {
     display: grid;
     grid-template-columns: 1fr;
-  }
-  .title {
-    margin-bottom: 0px;
   }
 }
