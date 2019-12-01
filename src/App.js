@@ -3,6 +3,8 @@ import "./App.css";
 
 import { Route } from "react-router-dom";
 
+import Menu from "./components/menu/menu-component";
+
 import Nav from "./components/nav/nav.component";
 import HomePage from "./pages/homepage.component";
 import AboutPage from "./pages/aboutpage";

@@ -1,6 +1,7 @@
 .project-container {
-  border: 1px solid #ececec;
+  // border: 1px solid #ececec;
   border-radius: 3px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   margin: 0px 0px 20px;
   position: relative;
 }
@@ -57,6 +58,18 @@
     font-size: 16px;
     margin: 5px 0px 0px;
   }
+
+  @media screen and (max-width: 600px) {
+    .title > h3 {
+      font-size: 18px;
+    }
+    .sub > p {
+      font-size: 14px;
+    }
+    .text > p {
+      font-size: 14px;
+    }
+  }
 }
 
 .buttons {
@@ -79,5 +92,13 @@
   .link:hover {
     background: #ececec;
     color: #333333;
+  }
+
+  @media screen and (max-width: 600px) {
+    .link {
+      font-size: 12px;
+      padding: 5px;
+      margin: 0px 10px 10px 0px;
+    }
   }
 }

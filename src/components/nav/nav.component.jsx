@@ -3,7 +3,6 @@ import React from "react";
 import "./nav.styles.scss";
 
 import Scroll from "../scroll/scroll.component";
-
 import { animateScroll as scroll } from "react-scroll";
 
 const Nav = () => {
