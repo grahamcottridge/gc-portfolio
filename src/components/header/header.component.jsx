@@ -21,30 +21,32 @@ const Header = () => {
       //   overflow: "hidden"
       // }}
     >
-      <div className="main">
-        <animated.h1 className="title">Full Stack Developer</animated.h1>
-        <div className="icons">
-          <a className="icon" href="mailto:codinggc@gmail.com?subject=Hi!">
-            <FontAwesomeIcon size="3x" icon={faEnvelope} />
-          </a>
-          <a
-            className="icon"
-            href="https://github.com/grahamcottridge"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <FontAwesomeIcon size="3x" icon={faGithub} />
-          </a>
-          <a
-            className="icon"
-            href="https://www.linkedin.com/in/mvc1234"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <FontAwesomeIcon size="3x" icon={faLinkedin} />
-          </a>
+      <Fade delay={500}>
+        <div className="main">
+          <animated.h1 className="title">Full Stack Developer</animated.h1>
+          <div className="icons">
+            <a className="icon" href="mailto:codinggc@gmail.com?subject=Hi!">
+              <FontAwesomeIcon size="3x" icon={faEnvelope} />
+            </a>
+            <a
+              className="icon"
+              href="https://github.com/grahamcottridge"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <FontAwesomeIcon size="3x" icon={faGithub} />
+            </a>
+            <a
+              className="icon"
+              href="https://www.linkedin.com/in/mvc1234"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <FontAwesomeIcon size="3x" icon={faLinkedin} />
+            </a>
+          </div>
         </div>
-      </div>
+      </Fade>
     </div>
   );
 };
