@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1f057be00e7eeba103f60eb7a8c9593f",
+    "revision": "73f938bcdf6ab5a373161db29baf8ce9",
     "url": "/gc-portfolio/index.html"
   },
   {
-    "revision": "17f23537cb1e327d3944",
-    "url": "/gc-portfolio/static/css/main.e5baae99.chunk.css"
+    "revision": "c2c596194f463f3cd8e8",
+    "url": "/gc-portfolio/static/css/main.61af3e5b.chunk.css"
   },
   {
     "revision": "d8e699ff9b95f7a4b025",
     "url": "/gc-portfolio/static/js/2.9b351ec2.chunk.js"
   },
   {
-    "revision": "17f23537cb1e327d3944",
-    "url": "/gc-portfolio/static/js/main.4e45b2ff.chunk.js"
+    "revision": "c2c596194f463f3cd8e8",
+    "url": "/gc-portfolio/static/js/main.53304911.chunk.js"
   },
   {
     "revision": "3683a615e5a125af8b07",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gc-portfolio/static/media/face-detection.86a1a81a.jpg"
   },
   {
-    "revision": "f5c40f699b88aeb631d84e8206eaba98",
-    "url": "/gc-portfolio/static/media/image3.f5c40f69.jpg"
+    "revision": "d135424abf66e5f92e301fd9ffebaf32",
+    "url": "/gc-portfolio/static/media/image2.d135424a.jpg"
   },
   {
     "revision": "e5e71e686c4d491266528555eeb6fe40",
