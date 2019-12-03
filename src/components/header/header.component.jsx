@@ -23,7 +23,9 @@ const Header = () => {
     >
       <Fade delay={500}>
         <div className="main">
-          <animated.h1 className="title">Full Stack Developer</animated.h1>
+          <animated.h1 className="title">
+            Full Stack React Developer
+          </animated.h1>
           <div className="icons">
             <a className="icon" href="mailto:codinggc@gmail.com?subject=Hi!">
               <FontAwesomeIcon size="3x" icon={faEnvelope} />

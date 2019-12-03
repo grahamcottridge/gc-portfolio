@@ -11,7 +11,7 @@ const PROJECT_DATA = [
     sub: "Built with React, Redux and Firebase",
     image: imageOne,
     text:
-      "An e-commerce website featuring navigation and routing, sign in and registration including Google signup, utilisation of Firebase for authentication and storage as well as a cart and checkout integrating Stripe payment API. Deployed to Heroku.",
+      "An e-commerce website featuring navigation and routing, sign in and registration including Google signup, utilisation of Firebase for authentication and storage as well as a cart and checkout integrating Stripe payment API.  Deployed to Heroku.",
     live: "https://react-clothing-shop.herokuapp.com/",
     source: "https://github.com/grahamcottridge/react-clothing-store-saga"
   },
@@ -21,7 +21,7 @@ const PROJECT_DATA = [
     sub: "Built with React, Express.js and Node.js, Postgres",
     image: imageTwo,
     text:
-      "This application utilises an API to detect faces in pictures. It features a RESTful API server, session management with authenticated routes, stores user information and hashes passwords securely on a database with Postgres. Deployed to Heroku. Why not register and try it for yourself?",
+      "This application utilises an API to detect faces in pictures. It features a RESTful API server, session management with authenticated routes, stores user information and hashes passwords securely on a database with Postgres.  Deployed to Heroku. Why not register and try it for yourself?",
     live: "https://photo-face-reveal.herokuapp.com/",
     source: "https://github.com/grahamcottridge/react-face-recognition"
   },
