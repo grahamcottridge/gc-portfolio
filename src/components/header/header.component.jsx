@@ -28,7 +28,7 @@ const Header = () => {
           </animated.h1>
           <div className="icons">
             <a className="icon" href="mailto:codinggc@gmail.com?subject=Hi!">
-              <FontAwesomeIcon size="3x" icon={faEnvelope} />
+              <FontAwesomeIcon icon={faEnvelope} />
             </a>
             <a
               className="icon"
@@ -36,7 +36,7 @@ const Header = () => {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <FontAwesomeIcon size="3x" icon={faGithub} />
+              <FontAwesomeIcon icon={faGithub} />
             </a>
             <a
               className="icon"
@@ -44,7 +44,7 @@ const Header = () => {
               rel="noopener noreferrer"
               target="_blank"
             >
-              <FontAwesomeIcon size="3x" icon={faLinkedin} />
+              <FontAwesomeIcon icon={faLinkedin} />
             </a>
           </div>
         </div>

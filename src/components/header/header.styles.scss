@@ -17,7 +17,8 @@
     .title {
       color: #ececec;
       font-style: italic;
-      font-size: 56px;
+      font-size: 60px;
+      font-weight: 100;
       line-height: 1.2;
     }
 
@@ -26,16 +27,17 @@
         color: #ececec;
         padding: 20px 20px;
         text-decoration: none;
+        font-size: 36px;
       }
 
       .icon:hover {
-        color: #f300b4;
+        color: #a51080;
       }
     }
 
     @media screen and (max-width: 600px) {
       .title {
-        font-size: 44px;
+        font-size: 36px;
       }
 
       .icon {
