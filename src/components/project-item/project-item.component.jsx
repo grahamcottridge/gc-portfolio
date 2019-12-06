@@ -19,7 +19,6 @@ const ProjectItem = ({ title, image, sub, text, live, source }) => {
             >
               Live
             </a>
-
             <a
               className="link"
               href={source}

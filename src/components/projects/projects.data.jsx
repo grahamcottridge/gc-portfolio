@@ -1,7 +1,7 @@
 // images saved at 1200x800px
 import imageOne from "../../assets/clothing-store.jpg";
 import imageTwo from "../../assets/face-detection.jpg";
-import imageThree from "../../assets/rsvp.jpg";
+import imageThree from "../../assets/react-movie.jpg";
 import imageFour from "../../assets/music-event.jpg";
 
 const PROJECT_DATA = [
@@ -17,6 +17,16 @@ const PROJECT_DATA = [
   },
   {
     id: 2,
+    title: "Movie Database",
+    sub: "Built with React",
+    image: imageThree,
+    text:
+      "This application utilises an API to search for movie information. It features custom-built React Hooks for state and side effects as well as persisting state in local and session storage.",
+    live: "https://react-movies-db.netlify.com/",
+    source: "https://github.com/grahamcottridge/react-moviedb"
+  },
+  {
+    id: 3,
     title: "Face Recognition",
     sub: "Built with React, Express.js and Node.js, Postgres",
     image: imageTwo,
@@ -26,7 +36,7 @@ const PROJECT_DATA = [
     source: "https://github.com/grahamcottridge/react-face-recognition"
   },
   {
-    id: 3,
+    id: 4,
     title: "Music Event",
     sub: "Built with React",
     image: imageFour,
@@ -34,17 +44,17 @@ const PROJECT_DATA = [
       "A static website utilising several React animation libraries and featuring a countdown, integration with Google maps and side drawer navigation. Deployed to GitHub pages.",
     live: "https://grahamcottridge.github.io/react-music-event",
     source: "https://github.com/grahamcottridge/react-music-event"
-  },
-  {
-    id: 4,
-    title: "Event Organiser",
-    sub: "Built with React",
-    image: imageThree,
-    text:
-      "An event organiser enabling guests to be inputed and divided into invited and confirmed.  Deployed to GitHub pages.",
-    live: "https://grahamcottridge.github.io/react-rsvp",
-    source: "https://github.com/grahamcottridge/react-rsvp"
   }
+  // {
+  //   id: 4,
+  //   title: "Event Organiser",
+  //   sub: "Built with React",
+  //   image: imageThree,
+  //   text:
+  //     "An event organiser enabling guests to be inputed and divided into invited and confirmed.  Deployed to GitHub pages.",
+  //   live: "https://grahamcottridge.github.io/react-rsvp",
+  //   source: "https://github.com/grahamcottridge/react-rsvp"
+  // }
   // {
   //   id: 5,
   //   title: "Contact Manager",
